@@ -1,0 +1,32 @@
+.carousel {
+    height: 400px;
+}
+
+.carousel-slider {
+    height: 580px !important;
+}
+
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    border: none;
+}
+
+.scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.menu-item-wrapper.active {
+    border: none;
+}
+
+.menu-item.active {
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel {
+        height: 400px;
+    }
+}
